@@ -1,4 +1,5 @@
-let theme=localStorage.getItem('theme')
+let theme=localStorage.getItem('theme');
+
 if(theme==null){
     //if user is new to page them set theme to light
         setTheme('light')
